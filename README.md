@@ -1,6 +1,6 @@
 # Bruce-s-60th
 
-This site will be a place to get all of the information about an RSVP to Bruce Fiene's 60th birthday party.
+This site will be a place to get all of the information about and RSVP to Bruce Fiene's 60th birthday party.
 
 Links and information about the venue and artists as well as local lodging will be available.
 
