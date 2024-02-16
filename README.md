@@ -1,4 +1,4 @@
-# Bruce-s-60th
+# Bruce's 60th
 
 This site will be a place to get all of the information about and RSVP to Bruce Fiene's 60th birthday party.
 
