@@ -26,6 +26,12 @@ export default function Navbar() {
                     <Typography variant="h6" component="div" style={linkStyle}>
                         Hotels
                     </Typography>
+                    <Typography variant="h6" component="div" style={linkStyle}>
+                        Pictures
+                    </Typography>
+                    <Typography variant="h6" component="div" style={linkStyle}>
+                        Message Board
+                    </Typography>
                 </Toolbar>
             </Container>
         </AppBar>
