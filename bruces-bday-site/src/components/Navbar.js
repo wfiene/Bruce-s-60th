@@ -4,7 +4,7 @@ export default function Navbar() {
 
     const appBarStyle = {
         backgroundImage: 'url("/wood.png")',
-        backgroundSize: 'cover' // Ensures the background covers the AppBar
+        backgroundSize: 'cover'
     };
 
     return (
