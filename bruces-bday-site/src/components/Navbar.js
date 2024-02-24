@@ -27,7 +27,7 @@ export default function Navbar() {
                         Hotels
                     </Typography>
                     <Typography variant="h6" component="div" style={linkStyle}>
-                        Pictures
+                        Picture Board
                     </Typography>
                     <Typography variant="h6" component="div" style={linkStyle}>
                         Message Board
