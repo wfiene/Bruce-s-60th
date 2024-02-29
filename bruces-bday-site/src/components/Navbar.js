@@ -1,4 +1,7 @@
-import { AppBar, Toolbar, Typography, Container } from "@mui/material";
+import { AppBar, Toolbar, Typography, Container, Box, Tab, Tabs } from "@mui/material";
+
+
+
 
 export default function Navbar() {
 
@@ -17,7 +20,7 @@ export default function Navbar() {
         <AppBar position="static" style={appBarStyle}>
             <Container maxWidth='xl'>
                 <Toolbar disableGutters>
-                    <Typography variant="h6" component="div" style={linkStyle}>
+                    {/* <Typography variant="h6" component="div" style={linkStyle}>
                         Home
                     </Typography>
                     <Typography variant="h6" component="div" style={linkStyle}>
@@ -25,13 +28,20 @@ export default function Navbar() {
                     </Typography>
                     <Typography variant="h6" component="div" style={linkStyle}>
                         Hotels
-                    </Typography>
-                    <Typography variant="h6" component="div" style={linkStyle}>
+                    </Typography> */}
+                    {/* <Typography variant="h6" component="div" style={linkStyle}>
                         Picture Board
                     </Typography>
                     <Typography variant="h6" component="div" style={linkStyle}>
                         Message Board
-                    </Typography>
+                    </Typography> */}
+                    <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                        <Tabs aria-label="basic tabs example">
+                            <Tab label="Item One" />
+                            <Tab label="Item Two" />
+                            <Tab label="Item Three" />
+                        </Tabs>
+                    </Box>
                 </Toolbar>
             </Container>
         </AppBar>
