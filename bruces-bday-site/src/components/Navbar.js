@@ -35,11 +35,11 @@ export default function Navbar() {
                     <Typography variant="h6" component="div" style={linkStyle}>
                         Message Board
                     </Typography> */}
-                    <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                        <Tabs aria-label="basic tabs example">
-                            <Tab label="Item One" />
-                            <Tab label="Item Two" />
-                            <Tab label="Item Three" />
+                    <Box sx={{ borderBottom: 5, borderColor: 'divider' }}>
+                        <Tabs aria-label="basic tabs example" textColor="white" indicatorColor="secondary">
+                            <Tab label="Home" />
+                            <Tab label="Venue" />
+                            <Tab label="Hotels" />
                         </Tabs>
                     </Box>
                 </Toolbar>
