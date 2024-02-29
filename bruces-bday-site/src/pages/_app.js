@@ -1,3 +1,4 @@
+import TabWrapper from "@/context/TabContext";
 import ThemeWrapper from "@/context/theme";
 import "@/styles/globals.css";
 import { CssBaseline } from "@mui/material";
@@ -7,7 +8,9 @@ export default function App({ Component, pageProps }) {
     <>
       <ThemeWrapper>
         <CssBaseline /> {/* CssBaseline can be removed to go back to default Nextjs Styles */}
-        <Component {...pageProps} />
+        <TabWrapper>
+          <Component {...pageProps} />
+        </TabWrapper>
       </ThemeWrapper>
     </>
   );
