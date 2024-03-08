@@ -23,15 +23,15 @@ export default function Navbar() {
         "&.Mui-selected": {
             color: "black",
             backgroundColor: 'white',
-            borderRadius: '5px 5px 0 0'
+            borderRadius: '5px 5px 0 0',
         }
     });
 
     return (
         <AppBar position="static" style={appBarStyle} sx={{ p: 0 }}>
             <Container maxWidth='xl' sx={{ p: 0, }}>
-                <Toolbar disableGutters>
-                    <Box sx={{ borderBottom: 5, borderColor: 'divider', p: 0 }}>
+                <Toolbar disableGutters sx={{ pt: 2 }} variant="dense">
+                    <Box>
                         <Tabs
                             textColor="white"
                             indicatorColor="secondary"
