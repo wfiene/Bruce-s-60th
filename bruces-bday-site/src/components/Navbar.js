@@ -14,8 +14,8 @@ export default function Navbar() {
     };
 
     const appBarStyle = {
-        backgroundImage: 'url("/wood.png")',
-        backgroundSize: 'cover'
+        backgroundImage: 'url("/darkwood.png")',
+        backgroundSize: 'contain',
     };
 
 
